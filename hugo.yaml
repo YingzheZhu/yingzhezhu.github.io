@@ -1,0 +1,43 @@
+baseURL: "https://yingzhezhu.github.io/yingzhezhu-site/"
+title: "Yingzhe Zhu"
+defaultContentLanguage: "en"
+languages:
+  en:
+    label: "English"
+    locale: "en-us"
+enableRobotsTXT: true
+
+params:
+  description: "PhD Candidate, Department of Sociology, Northwestern University"
+  author: "Yingzhe Zhu"
+  email: "yingzhezhu2025@u.northwestern.edu"
+  institution: "Northwestern University"
+  department: "Department of Sociology"
+  program: "PhD Candidate, Department of Sociology, Northwestern University"
+  advisor: "Steven Epstein"
+  tagline: "I study the political economy of technology and medicine."
+  expectedDegrees: "Ph.D. in Sociology and M.S. in Statistics (Data Science), expected July 2027"
+  photo: "images/photo.jpg"
+  mysite:
+    credit: true
+    discovery: true
+
+menu:
+  main:
+    - name: "About"
+      url: "/"
+      weight: 5
+    - name: "Research"
+      url: "/research/"
+      weight: 10
+    - name: "CV"
+      url: "/cv/"
+      weight: 20
+    - name: "Contact"
+      url: "/#contact"
+      weight: 30
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

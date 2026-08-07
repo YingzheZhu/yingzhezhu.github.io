@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <article class="page-shell page-prose">
+    <header class="page-header">
+      <p class="item-meta">{{ .Date.Format "January 2, 2006" }}</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    </header>
+    {{ .Content }}
+  </article>
+{{ end }}

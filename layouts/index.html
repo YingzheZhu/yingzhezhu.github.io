@@ -1,0 +1,42 @@
+{{ define "main" }}
+  <section class="hero page-shell" aria-labelledby="intro-title">
+    <div class="hero-media">
+      {{ with .Site.Params.photo }}
+        <img src="{{ . | relURL }}" alt="Yingzhe Zhu" width="176" height="176">
+      {{ else }}
+        <div class="monogram" aria-hidden="true">YZ</div>
+      {{ end }}
+    </div>
+    <div class="hero-copy">
+      <p class="eyebrow">{{ .Site.Params.program }}</p>
+      <div class="hero-name-row">
+        <h1 id="intro-title">Yingzhe Zhu</h1>
+        <div class="hero-actions">
+          <a class="button" href="mailto:{{ .Site.Params.email }}">Email</a>
+        </div>
+      </div>
+      {{ with hugo.Data.research.interests }}
+        <ul class="interest-list hero-interests" aria-label="Research interests">
+          {{ range . }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="section page-shell about-section" id="about" aria-label="About">
+    <div class="prose">
+      {{ .Content }}
+    </div>
+  </section>
+
+  <section class="section page-shell" id="contact" aria-labelledby="contact-title">
+    <h2 id="contact-title">Contact</h2>
+    <address class="contact-card">
+      <span>Department of Sociology</span>
+      <span>Northwestern University</span>
+      <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+    </address>
+  </section>
+{{ end }}

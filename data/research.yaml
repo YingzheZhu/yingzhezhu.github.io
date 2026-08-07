@@ -1,0 +1,28 @@
+interests:
+  - "Science and Technology Studies"
+  - "Medical Sociology"
+  - "Platform Economy"
+  - "Knowledge"
+  - "Work and Occupations"
+  - "Organizations"
+  - "Mixed Methods"
+
+projects:
+  - title: "Online medical platforms in China"
+    status: "Dissertation project"
+    description: "A mixed-methods study of how online medical platforms reshape patient behavior, doctors' platform work, medical authority, and health inequalities."
+    methods:
+      - "Interviews"
+      - "Ethnography"
+      - "Public documents"
+      - "Self-scraped datasets"
+      - "Textual analysis"
+      - "Geospatial analysis"
+      - "Regression techniques"
+  - title: "Patients, doctors, and platform-mediated care"
+    status: "Papers in progress"
+    description: "Two papers are in revise-and-resubmit processes at Social Science & Medicine, and another examines doctors' engagement with online medical platform work."
+    methods:
+      - "Medical sociology"
+      - "Platform labor"
+      - "Inequality"

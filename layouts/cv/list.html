@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <section class="page-shell cv-page" aria-labelledby="cv-title">
+    <header class="page-header">
+      <h1 id="cv-title">CV</h1>
+      <p><a class="cv-download" href="{{ "files/cv.pdf" | relURL }}" download>Download CV</a></p>
+    </header>
+    <object class="cv-embed" data="{{ "files/cv.pdf" | relURL }}" type="application/pdf" aria-label="Yingzhe Zhu CV PDF">
+      <p><a href="{{ "files/cv.pdf" | relURL }}">Open CV PDF</a></p>
+    </object>
+  </section>
+{{ end }}

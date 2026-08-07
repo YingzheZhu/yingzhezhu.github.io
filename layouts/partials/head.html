@@ -1,0 +1,32 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ .Site.Params.description }}">
+<meta name="author" content="{{ .Site.Params.author }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+<meta property="og:description" content="{{ .Site.Params.description }}">
+<meta property="og:type" content="{{ if .IsHome }}profile{{ else }}article{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta name="twitter:card" content="summary">
+<script>
+  (function () {
+    var saved = localStorage.getItem("theme");
+    var theme = saved || "light";
+    document.documentElement.dataset.theme = theme;
+  })();
+</script>
+{{ if .Site.Params.mysite.discovery }}
+  <meta name="generator" content="Created using GaryKing.org/mysite (https://gking.harvard.edu/mysite)">
+  {{ if .IsHome }}
+    <script type="application/ld+json">
+      {{ dict "@context" "https://schema.org" "@type" "Person" "name" .Site.Params.author "affiliation" (dict "@type" "Organization" "name" (printf "%s, %s" .Site.Params.department .Site.Params.institution)) "url" .Site.BaseURL "isBasedOn" "https://gking.harvard.edu/mysite" | jsonify | safeJS }}
+    </script>
+  {{ end }}
+{{ end }}
+{{ $style := resources.Get "css/style.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+<link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+<link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
+<link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
+<script defer src="{{ "js/theme-toggle.js" | relURL }}"></script>
+<script defer src="{{ "js/image-hover-preview.js" | relURL }}"></script>
