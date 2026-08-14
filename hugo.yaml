@@ -19,7 +19,7 @@ params:
   expectedDegrees: "Ph.D. in Sociology and M.S. in Statistics (Data Science), expected July 2027"
   photo: "images/photo.jpg"
   mysite:
-    credit: true
+    credit: false
     discovery: true
 
 menu:
