@@ -37,18 +37,18 @@ description: ""
 
 <div class="research-text">
 
-My doctoral dissertation investigates the rise and evolution of online medical platforms (OMPs) in China. These platforms enable patients to consult top doctors nationwide and access medical services virtually. These techno-medical innovations claim to provide cutting-edge solutions to prevalent health disparities in China, caused by the geographically uneven distribution of medical resources. However, technologies per se never prove to be a panacea for socio-medical problems. The expectations of designers are rarely realized seamlessly. Specifically, my research examines OMPs' actual efficacy through the following questions:
+In the past decade, online medical platforms (OMPs) have risen and prospered in China. Through these virtual platforms, people can easily consult the nation's most prestigious doctors affiliated with top metropolitan hospitals, from a distance. While these services are certainly welcomed by patients, the success of OMPs in China is highly unusual, as compared to their counterparts in other countries, which are typically confined to primary care or a fragmented sector, such as mental health or dermatology. In China, about half a million doctors, across all specialties, ranks, and institutions, simultaneously work as contracted gig workers on OMPs during their leisure time, despite high levels of exhaustion in regular jobs.
 
 <ul class="research-questions">
-  <li>What structural transformations do OMPs bring to healthcare?</li>
-  <li>What motivated exhausted doctors to provide additional online services?</li>
-  <li>How do OMPs reshape power dynamics among patients, providers, and platforms?</li>
-  <li>Can OMPs mitigate health disparities through a redistribution of resources in the virtual space?</li>
+  <li>How are OMPs used and evaluated?</li>
+  <li>What motivates doctors' participation?</li>
+  <li>Do OMPs change the power dynamics among different stakeholders?</li>
+  <li>What are the social consequences of OMPs, especially in terms of health disparities?</li>
 </ul>
 
-To answer these questions comprehensively, I draw on a <em class="purple-text">mixed-methods</em> approach, combining (1) 60 semi-structured interviews with patients, physicians, and digital health experts, (2) multisite ethnographic observations, (3) extensive references to public documents, and (4) varied statistical analyses of 2,068 patient reviews and over 3,500 doctor profiles scraped from a leading OMP. This methodology addresses both descriptive ("what/whether") questions about patterns or trends of OMP usage and explanatory ("how/why") questions unfolding underlying mechanisms or processes. It also bridges micro-level nuances with macro-level insights. Quantitative analysis ensures representativeness, while qualitative materials provide interpretive depth. Each method compensates for the other's limitations.
+My research is inspired by these questions. To fully capture the complexities of China's healthcare landscape, I adopt a <em class="purple-text">mixed-methods</em> approach to evaluate the actual efficacy of OMPs. Specifically, my study draws on (1) 60 semi-structured interviews with various stakeholders, including patients, healthcare providers, and digital health experts; (2) multisite ethnographic observations; (3) extensive reference to public documents, governance reports, and news articles; and (4) statistical and computational text analysis of 2,068 patient reviews and over 3,500 doctor profiles, scraped from <em>Good Doc Online</em>, a leading OMP in China that offers access to over 10,000 hospitals and 300,000 doctors and serves more than 89 million users.
 
-In general, the analysis reveals that while OMPs hold the potential to transcend resource constraints under optimal conditions, neither commercial nor hospital-run platforms have yet been fully integrated into China's formal healthcare system. I have developed several theoretical concepts to illuminate the complex entanglements among human actors, digital platforms, and socio-medical environments exemplified by OMPs in China. They serve as the core foci of my dissertation chapters respectively.
+In general, my analysis reveals that while OMPs hold the potential to transcend resource constraints under optimal conditions, they have not been fully integrated into China's formal healthcare system. Instead, they are used as expedient tools to wrestle with systemic shortcomings. By now, I have identified several theory-driven themes to illuminate their real-world influence.
 
 ## I. Inflated Evaluations
 
