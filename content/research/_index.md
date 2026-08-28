@@ -27,6 +27,7 @@ description: ""
   </figure>
   <figure>
     <figcaption>Overburdened Metropolitan Hospitals</figcaption>
+    <p class="figure-note">For confidentiality, I do not use photographs from my fieldwork here; instead, I include an internet-sourced image that does not show identifiable faces.</p>
     <img src="../images/research/overburdened-hospitals.jpg" alt="Crowd entering a metropolitan hospital" loading="lazy">
   </figure>
   <figure>
