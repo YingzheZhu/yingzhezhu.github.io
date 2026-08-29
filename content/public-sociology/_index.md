@@ -19,6 +19,6 @@ With access to government meetings and hospital spaces as an insider researcher,
 
 ## Public Writing
 
-Between 2016 and 2018, I wrote feature articles for several WeChat official accounts, including Tsinghua Sociology, as well as for my own social media account. Together, these pieces attracted more than 120,000 views.
+Between 2016 and 2018, I wrote feature articles applying sociological analysis for several WeChat official accounts, including Tsinghua Sociology, as well as for my own social media account. Together, these pieces attracted more than 120,000 views.
 
 </div>
