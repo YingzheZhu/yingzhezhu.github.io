@@ -30,6 +30,9 @@ menu:
     - name: "Research"
       url: "/research/"
       weight: 10
+    - name: "Public Sociology"
+      url: "/public-sociology/"
+      weight: 15
     - name: "CV"
       url: "/cv/"
       weight: 20
