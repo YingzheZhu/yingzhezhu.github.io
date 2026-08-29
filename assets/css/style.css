@@ -611,6 +611,35 @@ html[data-theme="dark"] .theme-icon::after {
   color: var(--color-accent);
 }
 
+.public-sociology-page {
+  max-width: 980px;
+  padding-bottom: 4.5rem;
+}
+
+.public-sociology-title {
+  color: var(--color-accent);
+  font-size: clamp(1.7rem, 2.6vw, 2.7rem);
+  line-height: 1.15;
+  margin: 3rem auto 2rem;
+  text-align: center;
+}
+
+.public-sociology-content h2 {
+  color: var(--color-accent);
+}
+
+.public-sociology-figure {
+  margin: 2.75rem auto;
+}
+
+.public-sociology-figure img {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
 .research-figures {
   display: grid;
   gap: 2.45rem;
