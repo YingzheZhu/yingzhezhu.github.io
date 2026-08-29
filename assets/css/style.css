@@ -78,7 +78,7 @@ input:focus-visible {
 }
 
 .brand {
-  color: var(--color-text);
+  color: var(--color-accent);
   font-weight: 700;
 }
 
@@ -458,6 +458,7 @@ html[data-theme="dark"] .nav-links {
 }
 
 .hero-name-row h1 {
+  color: var(--color-accent);
   margin-bottom: 0;
 }
 
