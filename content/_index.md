@@ -2,7 +2,7 @@
 title: "Yingzhe Zhu"
 ---
 
-I am a PhD candidate in Sociology at [Northwestern University](https://www.northwestern.edu/), in the [Department of Sociology](https://sociology.northwestern.edu/). I am also a Fellow in the [Science in Human Culture Program](https://shc.northwestern.edu/) and a Dissertation Fellow at Northwestern's [Roberta Buffett Institute for Global Affairs](https://buffett.northwestern.edu/) for the 2026-27 academic year. I will be on the academic job market in Fall 2026.
+I am a PhD candidate in Sociology at [Northwestern University](https://www.northwestern.edu/). I am also a Fellow in the [Science in Human Culture Program](https://shc.northwestern.edu/) and a Dissertation Fellow at Northwestern's [Roberta Buffett Institute for Global Affairs](https://buffett.northwestern.edu/) for the 2026-27 academic year. I will be on the academic job market in Fall 2026.
 
 I am a sociologist focusing primarily on the political economy of technology and medicine, with a global scope and strong policy relevance. My research examines how digital technologies reshape human behaviors, work conditions, institutional arrangements, and inequalities, in medicine and other social sectors. My interdisciplinary training in sociology, law, and statistics across China and the United States equips me to examine complex social problems at the intersection of technological change, healthcare, and state governance from comparative perspectives. Methodologically, I integrate geospatial analysis, regression modeling, and computational text analysis with traditional qualitative methods.
 
